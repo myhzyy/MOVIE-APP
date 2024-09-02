@@ -108,3 +108,27 @@ main {
 .movie:hover .overview {
   transform: translateY(0);
 }
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: inherit;
+  font-size: 24px;
+  color: #fff;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.image {
+  width: 100px;
+
+}
+/* center side of movies bit

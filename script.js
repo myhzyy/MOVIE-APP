@@ -9,6 +9,7 @@ const SEARCH_API =
 const form = document.getElementById("form");
 const search = document.getElementById("search");
 const main = document.getElementById("main");
+const button = document.querySelector(".button");
 
 // Get initial movies
 
@@ -70,4 +71,10 @@ form.addEventListener("submit", (e) => {
   } else {
     window.location.reload();
   }
+});
+
+///// BUTTON
+
+button.addEventListener("click", () => {
+  window.location.reload();
 });
