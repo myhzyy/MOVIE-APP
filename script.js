@@ -73,8 +73,7 @@ form.addEventListener("submit", (e) => {
   }
 });
 
-///// BUTTON
-
+/// BUTTON
 button.addEventListener("click", () => {
   window.location.reload();
 });
