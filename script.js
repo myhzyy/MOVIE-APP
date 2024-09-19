@@ -12,7 +12,6 @@ const main = document.getElementById("main");
 const button = document.querySelector(".button");
 
 // Get initial movies
-
 getMovie(API_URL);
 
 async function getMovie(url) {
